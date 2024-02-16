@@ -48,24 +48,22 @@ figure:hover {
 
 .categories:has(.categories__item:hover) .categories__item-image:not(:hover){
     filter: blur(8px);
-    
 }
 
-.categories:has(.categories__item:hover) .categories__item-image:not(:hover){
-    filter: blur(8px);
+.categories:has(.categories__item:hover) .categories__item:hover .categories__item-description {
+    bottom: 50%;
+    left: 50%;
+
+    text-align: center;
+
+    transform: translate(-50%, 50%);
+    transition: all 0.3s ease-in-out;
 }
 
 
 .categories__item-image {
     filter: brightness(0.9) saturate(1) contrast(1);
 }
-
-
-.categories__item-description:has(figure:hover) {
-    position: absolute;
-
-}
-
 
 
 /* TODO */
