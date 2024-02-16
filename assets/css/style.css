@@ -38,13 +38,7 @@ html {
 
 }
 
-.categories__item-image:has(:hover) {
-    transform: scale(1.5);
-    transition: transform 2 ease-in-out;
-}
-
-
-.categories__item-image:not(:hover) {
+.categories__item-image:has(:not(:hover)) {
     filter: blur(8px);
 }
 
@@ -59,6 +53,9 @@ html {
     bottom: 0;
     left: 0;
 }
+
+
+
 /* TODO */
 
 
