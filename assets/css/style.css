@@ -1,5 +1,5 @@
 :root {
-    --text-light: #000000;
+    --text-light: #ffffff;
 }
 html {
     font-family: 'Open Sans', sans-serif;
@@ -44,6 +44,10 @@ html {
 .categories__item-description {
     padding: 1em;
     color: var(--text-light);
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 /* TODO */
 
