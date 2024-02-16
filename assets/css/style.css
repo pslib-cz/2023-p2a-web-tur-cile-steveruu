@@ -13,6 +13,7 @@ html {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     /* použijte auto-fit s šířkou sloupce minimálně 300px */
     padding: 1em;
     gap: 1em;
@@ -24,6 +25,7 @@ html {
 }
 .categories__item:hover {
     box-shadow: 0 0 8px 2px var(--text-light);
+    transition: transform 0.3s ease-in-out;
 }
 .categories__item-image {
     filter: brightness(0.9) saturate(1) contrast(1);
@@ -33,6 +35,9 @@ html {
     color: var(--text-light);
 }
 /* TODO */
+
+
+
 
 
 /* Global */
