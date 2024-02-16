@@ -1,0 +1,54 @@
+:root {
+    --text-light: #000000;
+}
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+.page-header {
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1em;;
+}
+.categories {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    /* použijte auto-fit s šířkou sloupce minimálně 300px */
+    padding: 1em;
+    gap: 1em;
+}
+.categories__item {
+    position: relative;
+    color: inherit;
+    /* max-height: 80vh; */
+}
+.categories__item:hover {
+    box-shadow: 0 0 8px 2px var(--text-light);
+}
+.categories__item-image {
+    filter: brightness(0.9) saturate(1) contrast(1);
+}
+.categories__item-description {
+    padding: 1em;
+    color: var(--text-light);
+}
+/* TODO */
+
+
+/* Global */
+.img-responsive {
+    width: 100%;
+    display: block;
+}
+figure, h2 {
+    margin: 0;
+}
+.heading {
+    margin: 0.25em 0;
+    font-weight: bold;
+}
+.heading--h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: var(--text-light);
+}
