@@ -21,8 +21,3 @@ Není potřeba používat MediaQuery – vystačíte s fit-content v grid-templa
 
 různé velikosti okna
 
-## úzký pohled střední pohled široký pohled
-
-+ při najetí myši na konkrétní (viz přiložené video)
-
-
